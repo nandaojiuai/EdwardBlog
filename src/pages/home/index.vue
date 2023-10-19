@@ -1,7 +1,8 @@
 <template>
   <div style="width: 100%; height: 100vh">
     <!--    <MyHeader></MyHeader>-->
-    <MyImage></MyImage>
+    <Sunbutton @click="change"></Sunbutton>
+    <!--    <MyImage></MyImage>-->
     <MyTitle></MyTitle>
     <MyWaves></MyWaves>
     <el-icon :color="'#b7b8c4'" :size="36" class="arrow-down" @click="arrowDown">
@@ -11,17 +12,23 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, reactive } from "vue"
+import utils from '@/utils/dark'
+import { onMounted, reactive } from 'vue'
 // import MyHeader from "@/components/Header/index.vue"
-import MyImage from "@/components/Images/index.vue"
-import MyTitle from "@/components/Title/index.vue"
-import MyWaves from "@/components/Waves/index.vue"
+import MyImage from '@/components/Images/index.vue'
+import MyTitle from '@/components/Title/index.vue'
+import MyWaves from '@/components/Waves/index.vue'
+import Sunbutton from '@/components/Sundarkbutton/button.vue'
 
-const state: State = reactive({})
+const state = reactive({})
+const change = () => {
+  console.log('323232')
+  utils.toggleDark()
+}
 const arrowDown = () => {
   window.scrollTo({
-    behavior: "smooth",
-    top: document.documentElement.clientHeight
+    behavior: 'smooth',
+    top: document.documentElement.clientHeight,
   })
 }
 </script>

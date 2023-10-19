@@ -203,7 +203,7 @@ button {
   top: 0;
   width: 900px;
   height: 100%;
-  background: url('../../assets/bg.jpg');
+  background: url('img/bg.jpg');
   background-size: cover;
   transition: -webkit-transform 0.6s ease-in-out;
 }

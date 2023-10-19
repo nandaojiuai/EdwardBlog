@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.BLOB初始化">
+    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.更新README">
+      <change afterPath="$PROJECT_DIR$/src/components/Sundarkbutton/button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/dark.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bcg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bg0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Images/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="Vue Composition API Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -35,44 +50,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;JavaScript: Code Vision 性能观察程序&quot;,
-    &quot;Notification.DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/最新代码/Edward/Edward&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.xxxtai.smartinput&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\最新代码\\Edward\\Edward\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance": "JavaScript: Code Vision 性能观察程序",
+    "Notification.DoNotAsk-JavaScript: Code Vision Performance": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/最新代码/Edward/Edward/src/components/Sundarkbutton",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "D:\\最新代码\\Edward\\Edward\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\最新代码\Edward\Edward\src\components\Sundarkbutton" />
       <recent name="D:\最新代码\Edward\Edward\src\components" />
       <recent name="D:\最新代码\Edward\Edward\src\assets\style" />
       <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\public" />
       <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\src\utils" />
-      <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\最新代码\Edward\Edward\src\assets\img" />
       <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\src\pages\Movie" />
       <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\src\pages\marketing" />
       <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\src\pages" />
@@ -106,7 +121,9 @@
       <workItem from="1695708060817" duration="1582000" />
       <workItem from="1697528503394" duration="6985000" />
       <workItem from="1697535913342" duration="1452000" />
-      <workItem from="1697537422106" duration="58000" />
+      <workItem from="1697537422106" duration="156000" />
+      <workItem from="1697593851755" duration="839000" />
+      <workItem from="1697682543459" duration="3722000" />
     </task>
     <task id="LOCAL-00001" summary="素材库PC脚手架搭建">
       <option name="closed" value="true" />
@@ -180,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697537117600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.更新README">
+      <option name="closed" value="true" />
+      <created>1697537501647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697537501647</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +230,7 @@
     <MESSAGE value="1.代码上传" />
     <MESSAGE value="1.PC素材库交互基本完成" />
     <MESSAGE value="1.BLOB初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.BLOB初始化" />
+    <MESSAGE value="1.更新README" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.更新README" />
   </component>
 </project>

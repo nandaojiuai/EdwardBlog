@@ -19,11 +19,11 @@ import { reactive, watch, ref } from 'vue'
 
 const state = reactive({
   imageList: [
-    '/src/assets/bg0.jpg',
-    '/src/assets/bg1.png',
-    '/src/assets/bg2.png',
-    '/src/assets/bg3.jpg',
-    '/src/assets/bcg3.png',
+    '/src/assets/img/bg0.jpg',
+    '/src/assets/img/bg1.png',
+    '/src/assets/img/bg2.png',
+    '/src/assets/img/bg3.jpg',
+    '/src/assets/img/bg4.png',
   ],
 })
 const items = ref()
