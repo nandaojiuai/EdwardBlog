@@ -2,16 +2,14 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const btnClass = ref('active')
+const btnClass = ref('')
 const toggleClass = (e: any) => {
   btnClass.value = btnClass.value === 'active' ? '' : 'active'
 }
 </script>
 
 <template>
-  <div>
-    <div id="adc" :class="btnClass" @click="toggleClass"></div>
-  </div>
+  <div id="adc" :class="btnClass" @click="toggleClass"></div>
 </template>
 
 <style lang="scss" scoped>

@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.更新README">
-      <change afterPath="$PROJECT_DIR$/src/components/Sundarkbutton/button.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/dark.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.暗黑模式切换逻辑新增">
+      <change beforePath="$PROJECT_DIR$/.idea/JavaScriptSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaScriptSceneConfigState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bcg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bg0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sundarkbutton/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sundarkbutton/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/最新代码/Edward/Edward/src/components/Sundarkbutton",
+    "last_opened_file_path": "D:/最新代码/Edward/sishi-personal-blog-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -123,7 +111,7 @@
       <workItem from="1697535913342" duration="1452000" />
       <workItem from="1697537422106" duration="156000" />
       <workItem from="1697593851755" duration="839000" />
-      <workItem from="1697682543459" duration="3722000" />
+      <workItem from="1697682543459" duration="14110000" />
     </task>
     <task id="LOCAL-00001" summary="素材库PC脚手架搭建">
       <option name="closed" value="true" />
@@ -205,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697537501647</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1.暗黑模式切换逻辑新增">
+      <option name="closed" value="true" />
+      <created>1697687640952</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697687640952</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +212,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -231,6 +239,7 @@
     <MESSAGE value="1.PC素材库交互基本完成" />
     <MESSAGE value="1.BLOB初始化" />
     <MESSAGE value="1.更新README" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.更新README" />
+    <MESSAGE value="1.暗黑模式切换逻辑新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.暗黑模式切换逻辑新增" />
   </component>
 </project>
