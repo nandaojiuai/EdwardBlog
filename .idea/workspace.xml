@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.暗黑模式切换逻辑新增">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaScriptSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaScriptSceneConfigState.xml" afterDir="false" />
+    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.顶部导航栏新增">
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/coin7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/gift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uppeople/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Uppeople/uppeople.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sundarkbutton/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sundarkbutton/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/最新代码/Edward/sishi-personal-blog-master",
+    "last_opened_file_path": "D:/最新代码/Edward/Edward/src/components/Uppeople",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\最新代码\Edward\Edward\src\components\Uppeople" />
+      <recent name="D:\最新代码\Edward\Edward\src\assets" />
       <recent name="D:\最新代码\Edward\Edward\src\components\Sundarkbutton" />
       <recent name="D:\最新代码\Edward\Edward\src\components" />
       <recent name="D:\最新代码\Edward\Edward\src\assets\style" />
-      <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\public" />
-      <recent name="D:\最新代码\华谊云商城-\hy-shop-web\pc\hy-sck-pc-web\src\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\最新代码\Edward\Edward\src\assets\img" />
@@ -111,7 +118,8 @@
       <workItem from="1697535913342" duration="1452000" />
       <workItem from="1697537422106" duration="156000" />
       <workItem from="1697593851755" duration="839000" />
-      <workItem from="1697682543459" duration="14110000" />
+      <workItem from="1697682543459" duration="14144000" />
+      <workItem from="1697792473040" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="素材库PC脚手架搭建">
       <option name="closed" value="true" />
@@ -201,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697687640952</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.顶部导航栏新增">
+      <option name="closed" value="true" />
+      <created>1697709540411</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697709540411</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +256,7 @@
     <MESSAGE value="1.BLOB初始化" />
     <MESSAGE value="1.更新README" />
     <MESSAGE value="1.暗黑模式切换逻辑新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.暗黑模式切换逻辑新增" />
+    <MESSAGE value="1.顶部导航栏新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.顶部导航栏新增" />
   </component>
 </project>

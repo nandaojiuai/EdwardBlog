@@ -2,27 +2,28 @@
   <div style="width: 100%; height: 100vh">
     <!--    <MyHeader></MyHeader>-->
     <div style="position: relative; top: 0px; height: 0; z-index: 999">
-      <header>
-        <nav>
-          <ul>
-            <!--            <div style="position: absolute; left: 0">左侧logo</div>-->
-            <li><a href="#">首页</a></li>
-            <li><a href="#">产品介绍</a></li>
-            <li><a href="#">服务介绍</a></li>
-            <li><a href="#">关于我们</a></li>
-            <li><a href="#">联系我们</a></li>
-            <div class="slider"></div>
-            <Sunbutton @click="change"></Sunbutton>
-          </ul>
-        </nav>
-      </header>
+      <!--      <header>-->
+      <!--        <nav>-->
+      <!--          <ul>-->
+      <!--            &lt;!&ndash;            <div style="position: absolute; left: 0">左侧logo</div>&ndash;&gt;-->
+      <!--            <li><a href="#">首页</a></li>-->
+      <!--            <li><a href="#">产品介绍</a></li>-->
+      <!--            <li><a href="#">服务介绍</a></li>-->
+      <!--            <li><a href="#">关于我们</a></li>-->
+      <!--            <li><a href="#">联系我们</a></li>-->
+      <!--            <div class="slider"></div>-->
+      <!--            <Sunbutton @click="change"></Sunbutton>-->
+      <!--          </ul>-->
+      <!--        </nav>-->
+      <!--      </header>-->
     </div>
-    <MyImage></MyImage>
-    <MyTitle></MyTitle>
-    <MyWaves></MyWaves>
-    <el-icon :color="'#2b303e'" :size="36" class="arrow-down" @click="arrowDown">
-      <ArrowDown />
-    </el-icon>
+    <!--    <MyImage></MyImage>-->
+    <!--    <MyTitle></MyTitle>-->
+    <!--    <MyWaves></MyWaves>-->
+    <!--    <el-icon :color="'#2b303e'" :size="36" class="arrow-down" @click="arrowDown">-->
+    <!--      <ArrowDown />-->
+    <!--    </el-icon>-->
+    <uppeople></uppeople>
     <!--    <div style="height: 100vh">这是下方的内容测试暗黑和日间模式</div>-->
   </div>
 </template>
@@ -34,6 +35,7 @@ import MyImage from '@/components/Images/index.vue'
 import MyTitle from '@/components/Title/index.vue'
 import MyWaves from '@/components/Waves/index.vue'
 import Sunbutton from '@/components/Sundarkbutton/button.vue'
+import Uppeople from '@/components/Uppeople/uppeople.vue'
 
 const state = reactive({})
 const change = () => {
