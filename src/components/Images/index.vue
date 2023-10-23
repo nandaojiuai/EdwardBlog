@@ -20,10 +20,11 @@ import { reactive, watch, ref } from 'vue'
 const state = reactive({
   imageList: [
     '/src/assets/img/bg0.jpg',
-    '/src/assets/img/bg1.png',
-    '/src/assets/img/bg2.png',
+    '/src/assets/img/bg1.jpg',
+    '/src/assets/img/bg2.jpg',
     '/src/assets/img/bg3.jpg',
-    '/src/assets/img/bg4.png',
+    '/src/assets/img/bg4.jpg',
+    'https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg',
   ],
 })
 const items = ref()

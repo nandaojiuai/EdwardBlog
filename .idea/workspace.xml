@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.新增向上小人样式动画">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaScriptSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaScriptSceneConfigState.xml" afterDir="false" />
+    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.新增跳转顶部">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bg0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bg4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Images/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Uppeople/uppeople.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uppeople/uppeople.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.vue" afterDir="false" />
     </list>
@@ -46,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/最新代码/Edward/Edward",
+    "last_opened_file_path": "D:/最新代码/Edward/sishi-personal-blog-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -112,7 +117,8 @@
       <workItem from="1697593851755" duration="839000" />
       <workItem from="1697682543459" duration="14144000" />
       <workItem from="1697792473040" duration="942000" />
-      <workItem from="1698046535125" duration="497000" />
+      <workItem from="1698046535125" duration="1599000" />
+      <workItem from="1698052745295" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="素材库PC脚手架搭建">
       <option name="closed" value="true" />
@@ -218,13 +224,26 @@
       <option name="project" value="LOCAL" />
       <updated>1697793350085</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.新增跳转顶部">
+      <option name="closed" value="true" />
+      <created>1698047084964</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698047084964</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b003cec8-56be-47e1-885f-7c377d27a3f7" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -244,6 +263,25 @@
             </State>
           </value>
         </entry>
+        <entry key="b003cec8-56be-47e1-885f-7c377d27a3f7">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1697447996553" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -259,6 +297,7 @@
     <MESSAGE value="1.暗黑模式切换逻辑新增" />
     <MESSAGE value="1.顶部导航栏新增" />
     <MESSAGE value="1.新增向上小人样式动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.新增向上小人样式动画" />
+    <MESSAGE value="1.新增跳转顶部" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.新增跳转顶部" />
   </component>
 </project>

@@ -4,7 +4,6 @@
       <header>
         <nav>
           <ul>
-            <!--            <div style="position: absolute; left: 0">左侧logo</div>-->
             <li><a href="#">首页</a></li>
             <li><a href="#">小记</a></li>
             <li><a href="#">介绍</a></li>

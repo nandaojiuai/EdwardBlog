@@ -218,7 +218,14 @@ const giftBoxClick = () => {
 //点击元素回到页面顶部
 const upwindows = () => {
   // console.log('点击了')
-  document.documentElement.scrollTop = 0
+  const scrollToTop = () => {
+    if (document.documentElement.scrollTop > 0) {
+      document.documentElement.scrollTop -= 50
+      //下一次浏览器重绘之前执行代码，以保持动画的流畅性和性能效率   requestAnimationFrame
+      requestAnimationFrame(scrollToTop)
+    }
+  }
+  scrollToTop()
 }
 const loop = () => {
   if (contentRef.value) {
@@ -372,19 +379,21 @@ onUnmounted(() => {
 <template>
   <div style="width: 490px; height: 920px">
     <div class="container">
-      <div ref="contentRef" class="content" style="cursor: pointer" @click="upwindows">
-        <img :src="people" alt="" class="people" />
-        <div ref="giftBoxRef" class="giftBox" @click="giftBoxClick">
-          <img :src="coin1" alt="" class="coin" />
-          <img :src="coin2" alt="" class="coin" />
-          <img :src="coin3" alt="" class="coin" />
-          <img :src="coin4" alt="" class="coin" />
-          <img :src="coin5" alt="" class="coin" />
-          <img :src="coin6" alt="" class="coin" />
-          <img :src="coin7" alt="" class="coin" />
-          <img :src="gift" alt="" class="gift" />
+      <transition name="fade">
+        <div ref="contentRef" class="content" style="cursor: pointer" @click="upwindows">
+          <img :src="people" alt="" class="people" />
+          <div ref="giftBoxRef" class="giftBox" @click="giftBoxClick">
+            <img :src="coin1" alt="" class="coin" />
+            <img :src="coin2" alt="" class="coin" />
+            <img :src="coin3" alt="" class="coin" />
+            <img :src="coin4" alt="" class="coin" />
+            <img :src="coin5" alt="" class="coin" />
+            <img :src="coin6" alt="" class="coin" />
+            <img :src="coin7" alt="" class="coin" />
+            <img :src="gift" alt="" class="gift" />
+          </div>
         </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -532,5 +541,16 @@ onUnmounted(() => {
       }
     }
   }
+}
+
+//向上缓动动画
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
