@@ -24,7 +24,7 @@ const state = reactive({
     '/src/assets/img/bg2.jpg',
     '/src/assets/img/bg3.jpg',
     '/src/assets/img/bg4.jpg',
-    'https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg',
+    '/src/assets/img/bg5.jpg',
   ],
 })
 const items = ref()

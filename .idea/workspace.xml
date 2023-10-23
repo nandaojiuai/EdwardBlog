@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.新增跳转顶部">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg4.png" beforeDir="false" />
+    <list default="true" id="2a7d5d91-3b1a-4705-a090-12250c27344b" name="更改" comment="1.banner图片优化&#10;2.新增向上缓动动画&#10;3.优化打字机文字生成效果">
       <change beforePath="$PROJECT_DIR$/src/components/Images/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Uppeople/uppeople.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Uppeople/uppeople.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +110,7 @@
       <workItem from="1697682543459" duration="14144000" />
       <workItem from="1697792473040" duration="942000" />
       <workItem from="1698046535125" duration="1599000" />
-      <workItem from="1698052745295" duration="1519000" />
+      <workItem from="1698052745295" duration="1644000" />
     </task>
     <task id="LOCAL-00001" summary="素材库PC脚手架搭建">
       <option name="closed" value="true" />
@@ -232,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698047084964</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1.banner图片优化&#10;2.新增向上缓动动画&#10;3.优化打字机文字生成效果">
+      <option name="closed" value="true" />
+      <created>1698054357111</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698054357111</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +298,7 @@
     <MESSAGE value="1.顶部导航栏新增" />
     <MESSAGE value="1.新增向上小人样式动画" />
     <MESSAGE value="1.新增跳转顶部" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.新增跳转顶部" />
+    <MESSAGE value="1.banner图片优化&#10;2.新增向上缓动动画&#10;3.优化打字机文字生成效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.banner图片优化&#10;2.新增向上缓动动画&#10;3.优化打字机文字生成效果" />
   </component>
 </project>
