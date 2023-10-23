@@ -208,14 +208,18 @@ interface PeopleAnimationProps {
 const { noDropCoins = false, clickNoDropCoins = false } = defineProps<PeopleAnimationProps>()
 const contentRef = ref<HTMLDivElement | null>(null)
 const giftBoxRef = ref<HTMLDivElement | null>(null)
-
+//下方礼物盒点击爆金币动画
 const giftBoxClick = () => {
   if (!clickNoDropCoins && !isCoinsMoving) {
     shouldCoinsMoving = true
     isCoinsMoving = true
   }
 }
-
+//点击元素回到页面顶部
+const upwindows = () => {
+  // console.log('点击了')
+  document.documentElement.scrollTop = 0
+}
 const loop = () => {
   if (contentRef.value) {
     const transitionPos = getEllipseTransitionPos(toOX, toOY, rotate, transformX, transformY)
@@ -368,7 +372,7 @@ onUnmounted(() => {
 <template>
   <div style="width: 490px; height: 920px">
     <div class="container">
-      <div ref="contentRef" class="content">
+      <div ref="contentRef" class="content" style="cursor: pointer" @click="upwindows">
         <img :src="people" alt="" class="people" />
         <div ref="giftBoxRef" class="giftBox" @click="giftBoxClick">
           <img :src="coin1" alt="" class="coin" />
