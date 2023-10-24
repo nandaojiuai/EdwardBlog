@@ -2,7 +2,7 @@
   "name": "vue3_vite_ts_pinia",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5173",
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
     "prettier": "prettier --write .",
     "lint:create": "eslint --init",

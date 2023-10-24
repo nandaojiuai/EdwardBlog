@@ -377,7 +377,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div style="width: 490px; height: 920px">
+  <div style="z-index: 999">
     <div class="container">
       <transition name="fade">
         <div ref="contentRef" class="content" style="cursor: pointer" @click="upwindows">
@@ -460,7 +460,7 @@ onUnmounted(() => {
   .container {
     position: fixed;
     bottom: 0;
-    right: 40px;
+    right: 50px;
     //width: 420px;
     width: 100.8px;
     height: 192px;

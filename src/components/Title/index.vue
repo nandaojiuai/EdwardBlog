@@ -10,6 +10,7 @@ import { onMounted, ref } from 'vue'
 
 const signature = ref<string>('')
 let timer = 0
+
 const appear = (text: string) => {
   signature.value = ''
   clearTimeout(timer)
@@ -26,7 +27,7 @@ const appear = (text: string) => {
       if (speed < 5) {
         speed = 5
       }
-      timer = setTimeout(changeContent, speed)
+      timer = setTimeout(changeContent, speed) as any
     }
   }
 

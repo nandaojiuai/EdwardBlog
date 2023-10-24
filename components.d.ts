@@ -8,11 +8,13 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     BirdBtn: typeof import('./src/components/Sundarkbutton/birdBtn.vue')['default']
+    Blobitem: typeof import('./src/components/Blobitem/blobitem.vue')['default']
     Button: typeof import('./src/components/Sundarkbutton/button.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     Header: typeof import('./src/components/Header/index.vue')['default']
     Images: typeof import('./src/components/Images/index.vue')['default']
+    People: typeof import('./src/components/Avatarpeople/people.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Title: typeof import('./src/components/Title/index.vue')['default']
